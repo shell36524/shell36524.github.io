@@ -1,0 +1,87 @@
+:root {
+  --text-color: #f0f4f5;
+  --background-color: #305c56;
+  --accent-color: #ee91e6;
+}
+
+/* 기본설정: 여백 0으로 만들기 */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+header {
+  display: flex;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  
+}
+.header-a {
+  margin-left: 10px;
+}
+.header-a i {
+  font-size: 24px;
+  color: var(--accent-color);
+}
+.header-b {
+  list-style: none;
+  display: flex;
+}
+.header-b li {
+  padding: 8px 12px;
+}
+.header-b li:hover {
+  background-color: var(--accent-color);
+  border-radius: 10px;
+}
+.header-c {
+  list-style: none;
+  display: flex;
+}
+.header-c li {
+  padding: 8px 12px;  
+}
+.header-d {
+  position: absolute;
+  right: 32px;
+  color: var(--accent-color);
+  display: none;
+}
+
+/* 반응형 */
+@media screen and (max-width:800px){
+  header{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+  .header-b{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .header-b li{
+    width: 100%;
+    text-align: center;
+  }
+  .header-c {
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+  .header-d {
+    display:block ;
+  }
+  .header-b.active,
+  .header-c.active {
+    display: flex;
+  }
+}
