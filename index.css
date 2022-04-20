@@ -94,7 +94,7 @@ section{
 .cTitle{
   font-size: 70px;
   font-weight: bolder;
-  color: rgb(112, 62, 80)
+  color: rgb(112, 62, 80);
 }
 .cLogo{
   margin-bottom: 10px;
@@ -109,9 +109,15 @@ section{
   padding: 10px;
   font-size: 40px;
   font-weight: bolder;
-  color: rgb(154, 91, 102);
+  color: rgb(112, 62, 80);
 }
-
+.cContact{
+  font-size: 18px;
+  color:rgb(112, 62, 80);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
 
 /* 반응형 */
 @media screen and (max-width:800px){
