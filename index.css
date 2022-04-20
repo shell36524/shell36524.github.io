@@ -71,6 +71,11 @@ header {
   color: var(--accent-color);
   display: none;
 }
+.fas,
+.fab {
+  color: white;
+  font-size: 30px;
+}
 section{
   text-align: center;
   margin-top: 100px;
