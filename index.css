@@ -77,8 +77,19 @@ header {
   font-size: 30px;
 }
 section{
+  display: flex;
+  width: 100%;
   text-align: center;
   margin-top: 100px;
+  /* background-color: aliceblue; */
+}
+.main{
+  width: 600px;
+  height: 450px;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  background-color: rgb(253, 240, 247);
 }
 .cTitle{
   font-size: 70px;
