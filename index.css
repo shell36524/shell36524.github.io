@@ -1,18 +1,32 @@
 :root {
   --text-color: #f0f4f5;
-  --background-color: #305c56;
-  --accent-color: #ee91e6;
+  --background-color: #8d7485;
+  --accent-color: #6c979b;
 }
 
 /* 기본설정: 여백 0으로 만들기 */
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Alegreya', serif;
 }
 a {
   text-decoration: none;
   color: var(--text-color);
+}
+/* a:link{
+  color: rgb(154, 91, 102);
+} */
+a:visited{ 
+  color: rgb(59, 57, 57); 
+}
+a:hover{
+  color: pink;
+}
+a:active{
+  color: #6c979b;
 }
 header {
   display: flex;
@@ -25,14 +39,16 @@ header {
 }
 .header-a {
   margin-left: 10px;
+  font-size: 30px;
 }
 .header-a i {
-  font-size: 24px;
+  font-size: 30px;
   color: var(--accent-color);
 }
 .header-b {
   list-style: none;
   display: flex;
+  font-size: 25px;
 }
 .header-b li {
   padding: 8px 12px;
@@ -44,6 +60,7 @@ header {
 .header-c {
   list-style: none;
   display: flex;
+  font-size: 25px;
 }
 .header-c li {
   padding: 8px 12px;  
@@ -54,6 +71,31 @@ header {
   color: var(--accent-color);
   display: none;
 }
+section{
+  text-align: center;
+  margin-top: 100px;
+}
+.cTitle{
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(112, 62, 80)
+}
+.cLogo{
+  margin-bottom: 10px;
+}
+.cContent{
+  display: flex;
+  justify-content: center;
+}
+.cPDF,
+.cDEMO,
+.cREPO{
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(154, 91, 102);
+}
+
 
 /* 반응형 */
 @media screen and (max-width:800px){
