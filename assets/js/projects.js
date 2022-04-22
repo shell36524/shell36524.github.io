@@ -15,9 +15,9 @@ let render_projects = (slug) => {
             link: 'https://github.com/shell36524/homecabe',
             title: 'HOME CA:BE',
             demo: 'https://youtu.be/mo-Qp-KBh0w',
-            demo2:'https://drive.google.com/file/d/1k1XbPnrA5eZeJLXC1h5z6YEuD43sW_-H/view?usp=sharing',
+            demo2:'https://drive.google.com/file/d/1XNVztv4ghVNehmpb-DZdf_F5emwwmU6V/view?usp=sharing',
             technologies: ['JAVA/JS', 'ORACLE', 'OPEN API'],
-            description: " 코로나로 인한 실내활동 증가로 홈카페, 홈베이킹에 관한 관심이 증가해 홈카페, 홈베이킹 레시피와 SNS 업로드용 사진을 찍는 기술을 공유하는 커뮤니티 제공을 목표",
+            description: " 코로나로 인한 실내활동 증가로 홈카페, 홈베이킹에 관한 관심이 증가해 홈카페, 홈베이킹 레시피와 SNS 업로드용 사진을 찍는 기술을 공유하는 커뮤니티를 제공함",
             categories: ['featured','native','security','div','webdev']
         },
         {
