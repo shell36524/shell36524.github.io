@@ -1,0 +1,22 @@
+title: KIMSORA
+description: A  JUNIOR  DEVELOPER
+site_title: '@shell36524 - KIMSORA'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: shell36524
+blog_url: https://shell36524.github.io
+email: shell36524@gmail.com
+# keybase_username: abhn
+twitter_username: shell36524_
+# reddit_username: abhn
+instagram_username: shell36524
+
+# absolute or relative
+profile_picture: assets/images/profile2.png
+
+# Google Analytics ID
+# google_analytics: 
