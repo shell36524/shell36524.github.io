@@ -18,7 +18,7 @@ let render_projects = (slug) => {
             demo2:'https://drive.google.com/file/d/1XNVztv4ghVNehmpb-DZdf_F5emwwmU6V/view?usp=sharing',
             technologies: ['JAVA/JS', 'ORACLE', 'OPEN API'],
             description: " 코로나로 인한 실내활동 증가로 홈카페, 홈베이킹에 관한 관심이 증가해 홈카페, 홈베이킹 레시피와 SNS 업로드용 사진을 찍는 기술을 공유하는 커뮤니티를 제공함",
-            categories: ['featured','native','security','div','webdev']
+            categories: ['featured','native','security','diy','webdev']
         },
         {
             image: 'assets/images/app3.png',
@@ -27,7 +27,7 @@ let render_projects = (slug) => {
             // demo: 'http://wall-e-jekyll.github.io/',
             technologies: ['JAVA/JS', 'ORACLE', 'OPEN API'],
             description: "울산KH정보교육원 '멀티디바이스융합 JAVA 디지털컨퍼런스과정' 중 수행했던 개별 과제로, 기본적인 기능의 홈페이지 구현을 목표로 만듦. 메인화면 구성과 게시판에서 게시물 작성과 수정 그리고 회원관리를 구현함",
-            categories: ['featured','native','security','div','webdev']
+            categories: ['featured','native','security','diy','webdev']
         }
         // {
         //     image: 'assets/images/collage.jpg',
