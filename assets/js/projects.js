@@ -33,7 +33,7 @@ let render_projects = (slug) => {
             image: 'assets/images/newspaper.png',
             link: 'https://github.com/shell36524/newsAPI',
             title: 'NEWSPAPER',
-            // demo: 'http://wall-e-jekyll.github.io/',
+            demo: 'https://stalwart-churros-169562.netlify.app/',
             technologies: ['JAVA/JS', 'OPEN API'],
             description: "OPEN API를 활용, 인터넷 기사 구현",
             categories: ['featured','native','security','diy','webdev']
