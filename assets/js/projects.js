@@ -29,6 +29,15 @@ let render_projects = (slug) => {
             description: "울산KH정보교육원 '멀티디바이스융합 JAVA 디지털컨퍼런스과정' 중 수행했던 개별 과제로, 기본적인 기능의 홈페이지 구현을 목표로 만듦. 메인화면 구성과 게시판에서 게시물 작성과 수정 그리고 회원관리를 구현함",
             categories: ['featured','native','security','diy','webdev']
         }
+        {
+            image: 'assets/images/newspaper.png',
+            link: 'https://github.com/shell36524/newsAPI',
+            title: 'NEWSPAPER',
+            // demo: 'http://wall-e-jekyll.github.io/',
+            technologies: ['JAVA/JS', 'OPEN API'],
+            description: "OPEN API를 활용, 인터넷 기사 구현",
+            categories: ['featured','native','security','diy','webdev']
+        }
         // {
         //     image: 'assets/images/collage.jpg',
         //     link: 'https://github.com/abhn/Marvel',
